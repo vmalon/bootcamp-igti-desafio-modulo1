@@ -1,3 +1,4 @@
+//Adicionado no Git
 window.addEventListener('load',start);
 
 var rangeRed = document.querySelector('#rangeRed');
