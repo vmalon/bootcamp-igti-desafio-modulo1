@@ -1,6 +1,7 @@
 //Adicionado no Git
 window.addEventListener('load',start);
 
+//Movido pra branch secundária
 var rangeRed = document.querySelector('#rangeRed');
 var rangeGreen = document.querySelector('#rangeGreen');
 var rangeBlue = document.querySelector('#rangeBlue');
