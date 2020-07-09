@@ -1,0 +1,16 @@
+.div-principal{
+    margin: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.color{
+    margin-left: 150px;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+}
+
+.inputText{
+    width : 50px;
+}

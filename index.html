@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Manipulação cores RGB</title>
+</head>
+<body>
+    <div class="div-principal">
+    <p>(R) Vermelho
+        <input type="range" id="rangeRed" min="0" max="255">
+        <input type="text" id="inputRed" class ="inputText" disabled>
+    </p>
+    <p>(G) Verde
+        <input type="range" id="rangeGreen" min="0" max="255">
+        <input type="text" id="inputGreen" class ="inputText" disabled>
+    </p>
+    <p>(B) Azul
+        <input type="range" id="rangeBlue" min="0" max="255">
+        <input type="text" id="inputBlue" class ="inputText" disabled>
+    </p>
+</div>
+    <div class="color" id="divRGB"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
